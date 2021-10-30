@@ -1,7 +1,30 @@
+import { Layout } from "../layout/Layout"
+import { Section } from '../styles/GlobalComponents'
+
 export default function Home() {
     return (
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quaerat quod omnis ducimus, corrupti accusamus nisi eum officiis dignissimos suscipit aliquam eligendi unde, dolorum magnam eius. Officiis eveniet error libero.
-        </p>
+        <Layout>
+            {/* Header Section */}
+            <Section grid>
+                {/* Hero */}
+                {/* <Hero /> */}
+                <h2>
+                    Hero
+                </h2>
+                {/* Background Animation */}
+                {/* <BgAnimation /> */}
+                <h2>
+                    Background Animation
+                </h2>
+            </Section>
+            {/* My Projects */}
+            
+            {/* Technologies Used */}
+
+            {/* Timeline Info */}
+
+            {/* My Acomplishments */}
+
+        </Layout>
     )
 }
