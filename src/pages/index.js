@@ -1,3 +1,4 @@
+import Hero from "../components/Hero/Hero"
 import { Layout } from "../layout/Layout"
 import { Section } from '../styles/GlobalComponents'
 
@@ -7,12 +8,9 @@ export default function Home() {
             {/* Header Section */}
             <Section grid>
                 {/* Hero */}
-                {/* <Hero /> */}
-                <h2>
-                    Hero
-                </h2>
+                <Hero />
+                
                 {/* Background Animation */}
-                {/* <BgAnimation /> */}
                 <h2>
                     Background Animation
                 </h2>
