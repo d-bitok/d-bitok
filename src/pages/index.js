@@ -3,6 +3,7 @@ import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation"
 import Hero from "../components/Hero/Hero"
 import Projects from "../components/Projects/Projects"
 import Technologies from '../components/Technologies/Technologies'
+import Timeline from '../components/Timeline'
 import { Layout } from "../layout/Layout"
 import { Section } from '../styles/GlobalComponents'
 
@@ -32,7 +33,7 @@ export default function Home() {
             <Technologies />
 
             {/* Timeline Info */}
-            
+            <Timeline />
 
             {/* My Acomplishments */}
 
