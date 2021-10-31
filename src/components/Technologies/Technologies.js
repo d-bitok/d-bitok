@@ -34,19 +34,21 @@ import {
     DiZend
 } from 'react-icons/di'
 import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, SkillBar } from "./TechnologiesStyles";
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, SkillBar, Hr } from "./TechnologiesStyles";
 
 export default function Technologies() {
     return (
         <Section id='tech'>
             <SectionDivider colorAlt />
+            <br />
             <SectionTitle>Technologies</SectionTitle>
             <SectionText>
                 Availability of a wide variety and range of technologies has allowed me to work and complete projects using different methods for both frontend and backend frameworks that would have otherwise been hard to impossible to achieve using only one technology.
             </SectionText>
+            {/* <Hr colorAlt /> */}
             {/* Front-End */}
             <List>
-                <br /><br />
+                <br />
                 <ListTitle>Front-End</ListTitle>
                 <br />
                 <ListItem>
@@ -138,9 +140,10 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
             </List>
+            <Hr colorAlt />
             {/* Back-End */}
             <List>
-                <br /><br />
+                <br />
                 <ListTitle>Back-End</ListTitle>
                 <br />
                 <ListItem>
@@ -200,8 +203,10 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
             </List>
+            <Hr colorAlt />
+            {/* Languages */}
             <List>
-                <br /><br />
+                <br />
                 <ListTitle>Languages</ListTitle>
                 <br />
                 <ListItem>
@@ -237,8 +242,10 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
             </List>
+            <Hr colorAlt />
+            {/* Cloud Native */}
             <List>
-                <br /><br />
+                <br />
                 <ListTitle>Cloud Native</ListTitle>
                 <br />
                 <ListItem>
@@ -274,8 +281,10 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
             </List>
+            <Hr colorAlt />
+            {/* Others */}
             <List>
-                <br /><br />
+                <br />
                 <ListTitle>Others</ListTitle>
                 <br />
                 <ListItem>
@@ -319,6 +328,10 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
             </List>
+            <Hr colorAlt />
+            <br />
+            <SectionDivider colorAlt />
+            <br />
         </Section>
     )
 }

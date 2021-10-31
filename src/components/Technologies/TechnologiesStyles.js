@@ -27,6 +27,20 @@ export const MainImage = styled.img`
     width: 100%;
 `;
 
+// Horizontal Line
+
+export const Hr = styled.div`
+    width: 100%;
+    height: 1.2px;
+    border-radius: 10px;
+    opacity: 0.5;
+    // background-color: #fff;
+    background: ${(props) => props.colorAlt ? 
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    margin: ${(props) => props.divider ? "4rem 0" : "" };
+`;
+
 // Knowledge Skill Bar
 export const SkillBar = styled.div`
     width: ${(props) => 
@@ -41,7 +55,7 @@ export const SkillBar = styled.div`
         props.ninety ? '90%' :
         props.hundred ? '100%' : '0px'
     };
-    height: 3px;
+    height: 8px;
     border-radius: 10px;
     background-color: #fff;
     background: ${(props) => props.colorAlt ? 

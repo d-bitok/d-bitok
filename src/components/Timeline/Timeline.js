@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import { TimeLineData } from "../constants/constants";
-import { Section, SectionText, SectionTitle } from "../styles/GlobalComponents";
+import { TimeLineData } from "../../constants/constants";
+import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from "./TimelineStyles";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -11,8 +11,8 @@ export default function Timeline() {
     const carouselRef = useRef();
 
     const scroll = (node, left) => {
-        return node.scrollTo({ left, behavior: 'smooth' });
-    };
+    return node.scrollTo({ left, behavior: 'smooth' });
+  }
 
     const handleClick = (e, i) => {
         e.preventDefault();
