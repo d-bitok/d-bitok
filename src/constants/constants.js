@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 0,
         title: 'C&D Tech',
-        description: "Our Company's Official Website. Has a Detailed Description of What We Do and Requests Can Be Made as Well.",
+        description: "Our company's official services rendered with detailed description of each speciality is listed on this website. Requests can be made by customers as well in realtime.",
         image: '/images/cnd.jpg',
         tags: ['Vue JS', 'Firebase', 'GitHub'],
         github: 'https://github.com/rexdougie/cnd-tech',
@@ -11,7 +11,7 @@ export const projects = [
     {
         id: 1,
         title: 'Wavma Security',
-        description: "Our Company's Official Website. Has a Detailed Description of What We Do and Requests Can Be Made as Well.",
+        description: "WAVMA SECURITY COMPANY LIMITED(WSCL) is a duly incorporated and registered under the companies Act, laws of Kenya. As a limited company, it transacts business as laid down in the companies Act Chapter 486 laws of Kenya.",
         image: '/images/wavma-sec.jpg',
         tags: ['HTML5', 'CSS', 'Bootstrap', 'Vanilla JS', 'Firebase'],
         github: 'https://github.com/rexdougie/wavma',
@@ -20,7 +20,7 @@ export const projects = [
     {
         id: 2,
         title: 'Prex Interiors',
-        description: "Our Company's Official Website. Has a Detailed Description of What We Do and Requests Can Be Made as Well.",
+        description: "They specialize in commercial, residential, retail and office construction and interior design.They also offer Architectural drawings and quality 3D renders.",
         image: '/images/prex.jpg',
         tags: ['Vanilla JS', 'Firebase', 'HTML5', 'CSS'],
         github: 'https://github.com/rexdougie/prex',
@@ -29,7 +29,7 @@ export const projects = [
     {
         id: 3,
         title: 'Cryptapp',
-        description: "Our Company's Official Website. Has a Detailed Description of What We Do and Requests Can Be Made as Well.",
+        description: "A website that shows all live information on crypto markets, listing top ten crypto currencies, their stats and latest news. ",
         image: '/images/cryptapp.jpg',
         tags: ['React JS', 'Node JS', 'RapidApi', 'Firebase'],
         github: 'https://github.com/rexdougie/cryptapp',
@@ -38,7 +38,7 @@ export const projects = [
     {
         id: 4,
         title: 'Kenya Prisons',
-        description: "Our Company's Official Website. Has a Detailed Description of What We Do and Requests Can Be Made as Well.",
+        description: "Kenya Prisons Sports Volleyball Club of Kenya. Events, tournaments and championships along with the results and players involved are shown.",
         image: '/images/prisons.jpg',
         tags: ['Vanilla JS', 'HTML5', 'Bootstrap', 'Firebase'],
         github: 'https://github.com/rexdougie/',
@@ -47,7 +47,7 @@ export const projects = [
     {
         id: 5,
         title: 'Kikao64 Cafe',
-        description: "Our Company's Official Website. Has a Detailed Description of What We Do and Requests Can Be Made as Well.",
+        description: "An inbuilt cafe system for Kikao64 where customers can make orders based on the menu and be delivered to their respective tables.",
         image: '/images/kikao64.jpg',
         tags: ['React Native', 'React', , 'Firebase'],
         github: 'https://github.com/rexdougie/kikao64',

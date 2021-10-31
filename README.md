@@ -1,4 +1,4 @@
-# D-Bitok Portfolio
+# My Personal Portfolio
 
 ## Technologies Used
 
@@ -6,12 +6,8 @@
 - Next Js
 - Firebase Hosting
 
-## Personal Portfolio
-
-### [Company Site](https://cnd-tech.web.app/)
-
-![Visit Website](https://d-bitok.web.app/)
+### [Visit Site](https://d-bitok.web.app/)
 
 Setup:
 
-- run `npm i && npm start`
+- run `npm i && npm run dev`
