@@ -13,7 +13,7 @@ export default function Hero (props) {
                     <SectionTitle main center>
                         Full Stack Mobile, <br />
                         Web <SiDungeonsanddragons /> Software <br />
-                        Development
+                        Developer
                     </SectionTitle>
                     <SectionText>
                         Work Fuelled By Curiousity And Determination

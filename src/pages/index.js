@@ -26,12 +26,12 @@ export default function Home() {
                 {/* Background Animation */}
                 <BgAnimation />
             </Section>
-
-            {/* My Projects */}
-            <Projects />
             
             {/* Technologies Used */}
             <Technologies />
+
+            {/* My Projects */}
+            <Projects />
 
             {/* Timeline Info */}
             <Timeline />

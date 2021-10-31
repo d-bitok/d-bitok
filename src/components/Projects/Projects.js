@@ -6,8 +6,7 @@ import { projects } from '../../constants/constants'
 export default function Projects () {
     return (
         <Section nopadding id="projects">
-            <SectionDivider colorAlt />
-            <SectionTitle main>Projects</SectionTitle>
+            <SectionTitle main>My Projects</SectionTitle>
             <GridContainer>
                 {projects.map((p, i) => {
                     return (
@@ -38,6 +37,7 @@ export default function Projects () {
                     )
                 })}
             </GridContainer>
+            <SectionDivider colorAlt />
         </Section>
     )
 }

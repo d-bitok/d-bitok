@@ -31,7 +31,7 @@ export default function Technologies() {
         <Section id='tech'>
             <SectionDivider colorAlt />
             <br />
-            <SectionTitle>Technologies</SectionTitle>
+            <SectionTitle>Technologies I Use</SectionTitle>
             <SectionText>
                 Availability of a wide variety and range of technologies has allowed me to work and complete projects using different methods for both frontend and backend frameworks that would have otherwise been hard to impossible to achieve using only one technology.
             </SectionText>
@@ -129,9 +129,9 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiPostgresql size="3rem" /></picture>
+                    <picture><SiNextdotjs size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>Postgresql</ListParagraph>
+                        <ListParagraph>Next Js</ListParagraph>
                     <SkillBar eighty/>
                     <br />
                     </ListContainer>
@@ -141,14 +141,6 @@ export default function Technologies() {
                     <ListContainer>
                         <ListParagraph>Node Js</ListParagraph>
                     <SkillBar sixty/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><SiNextdotjs size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Next Js</ListParagraph>
-                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -165,6 +157,14 @@ export default function Technologies() {
                     <ListContainer>
                         <ListParagraph>Jquery</ListParagraph>
                     <SkillBar seventy/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><DiPostgresql size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Postgresql</ListParagraph>
+                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
