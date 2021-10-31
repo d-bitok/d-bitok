@@ -33,8 +33,9 @@ import {
     DiVim,
     DiZend,
 } from 'react-icons/di'
-import { SiExpress, SiFirebase, SiNextdotjs } from "react-icons/si";
+import { SiExpress, SiFirebase, SiNextdotjs, SiSvelte } from "react-icons/si";
 import { RiVuejsLine } from "react-icons/ri";
+import { GoGear } from "react-icons/go";
 import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, SkillBar, Hr } from "./TechnologiesStyles";
 
@@ -126,6 +127,14 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
+                    <picture><SiSvelte size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Svelte</ListParagraph>
+                    <SkillBar eighty/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
                     <picture><DiHtml5 size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>HTML5</ListParagraph>
@@ -141,14 +150,6 @@ export default function Technologies() {
                     <br />
                     </ListContainer>
                 </ListItem>
-                <ListItem>
-                    <picture><DiAndroid size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Android</ListParagraph>
-                    <SkillBar thirty/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
             </List>
             <Hr colorAlt />
             {/* Back-End */}
@@ -156,14 +157,6 @@ export default function Technologies() {
                 <br />
                 <ListTitle>Back-End</ListTitle>
                 <br />
-                <ListItem>
-                    <picture><DiFirebase size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Firestore</ListParagraph>
-                    <SkillBar ninety/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
                 <ListItem>
                     <picture><SiFirebase size="3rem" /></picture>
                     <ListContainer>
@@ -205,14 +198,6 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiHeroku size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Heroku</ListParagraph>
-                    <SkillBar eighty/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
                     <picture><DiMysql size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>MySQL</ListParagraph>
@@ -246,16 +231,8 @@ export default function Technologies() {
                 <ListItem>
                     <picture><DiCodeBadge size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>C</ListParagraph>
+                        <ListParagraph>Java, C & C++</ListParagraph>
                     <SkillBar seventy/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><DiCodeBadge size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>C++</ListParagraph>
-                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -277,7 +254,7 @@ export default function Technologies() {
                 <ListItem>
                     <picture><DiCodeBadge size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>Rust</ListParagraph>
+                        <ListParagraph>Rust & Go</ListParagraph>
                     <SkillBar thirty/>
                     <br />
                     </ListContainer>
@@ -287,14 +264,6 @@ export default function Technologies() {
                     <ListContainer>
                         <ListParagraph>Docker</ListParagraph>
                     <SkillBar eighty/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><DiGo size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Go</ListParagraph>
-                    <SkillBar twenty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -326,6 +295,14 @@ export default function Technologies() {
                     <ListContainer>
                         <ListParagraph>NPM</ListParagraph>
                     <SkillBar ninety/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><GoGear size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>APIs</ListParagraph>
+                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
