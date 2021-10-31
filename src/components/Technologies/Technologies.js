@@ -19,6 +19,9 @@ import {
     DiJavascript1,
     DiNpm,
     DiVim,
+    DiAndroid,
+    DiSqllite,
+    DiHeroku,
 } from 'react-icons/di'
 import { SiExpress, SiFirebase, SiNextdotjs, SiSvelte, SiFlask, SiJquery, SiRedux } from "react-icons/si";
 import { RiVuejsLine } from "react-icons/ri";
@@ -53,30 +56,6 @@ export default function Technologies() {
                     <picture><RiVuejsLine size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>Vue Js</ListParagraph>
-                    <SkillBar seventy/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><DiReact size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>React Native</ListParagraph>
-                    <SkillBar ninety/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><DiDjango size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Django</ListParagraph>
-                    <SkillBar ninety/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><DiDart size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Flutter(Dart)</ListParagraph>
                     <SkillBar seventy/>
                     <br />
                     </ListContainer>
@@ -161,6 +140,22 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
+                    <picture><DiDjango size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Django</ListParagraph>
+                    <SkillBar ninety/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><DiSqllite size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Sqlite</ListParagraph>
+                    <SkillBar ninety/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
                     <picture><DiPostgresql size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>Postgresql</ListParagraph>
@@ -173,6 +168,14 @@ export default function Technologies() {
                     <ListContainer>
                         <ListParagraph>Mongodb</ListParagraph>
                     <SkillBar twenty/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><DiHeroku size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Heroku</ListParagraph>
+                    <SkillBar fifty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -220,6 +223,37 @@ export default function Technologies() {
                     <ListContainer>
                         <ListParagraph>Java, C & C++</ListParagraph>
                     <SkillBar seventy/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+            </List>
+            <Hr colorAlt />
+            {/* Mobile Dev */}
+            <List>
+                <br />
+                <ListTitle>Mobile Dev</ListTitle>
+                <br />
+                <ListItem>
+                    <picture><DiReact size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>React Native</ListParagraph>
+                    <SkillBar ninety/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><DiDart size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Flutter(Dart)</ListParagraph>
+                    <SkillBar seventy/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><DiAndroid size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Android</ListParagraph>
+                    <SkillBar forty/>
                     <br />
                     </ListContainer>
                 </ListItem>
