@@ -21,11 +21,11 @@ export const Container = styled.div`
 
 // Divs Styling
 export const Div1 = styled.div`
-    grid-area: 1 /1 / 2 / 2;
+    grid-area: 1 / 1 / 2 / 2;
     display: flex;
     flex-direction: row;
     align-content: center;
-
+    
     @media ${(props) => props.theme.breakpoints.sm} {
         grid-area: 1 / 1 / 2 / 3;
     }

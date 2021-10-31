@@ -6,7 +6,7 @@ import { projects } from '../../constants/constants'
 export default function Projects () {
     return (
         <Section nopadding id="projects">
-            <SectionDivider />
+            <SectionDivider colorAlt />
             <SectionTitle main>Projects</SectionTitle>
             <GridContainer>
                 {projects.map((p, i) => {
