@@ -1,39 +1,26 @@
 import React from "react";
 import { 
-    DiFirebase,
     DiReact,
     DiNodejs,
     DiMongodb,
-    DiBootstrap,
     DiGit,
     DiPython,
-    DiHtml5 ,
     DiPostgresql,
-    DiAndroid,
     DiCode,
-    DiSqllite,
     DiMysql,
     DiDjango,
-    DiHeroku,
     DiTerminal,
     DiAngularSimple,
-    DiCss3,
     DiDart,
     DiDocker,
-    DiGo,
-    DiExtjs,
     DiCodeBadge,
     DiGoogleCloudPlatform,
-    DiJavascript,
     DiLinux,
     DiJavascript1,
     DiNpm,
-    DiScriptcs,
-    DiJqueryUiLogo,
     DiVim,
-    DiZend,
 } from 'react-icons/di'
-import { SiExpress, SiFirebase, SiNextdotjs, SiSvelte } from "react-icons/si";
+import { SiExpress, SiFirebase, SiNextdotjs, SiSvelte, SiFlask, SiJquery, SiRedux } from "react-icons/si";
 import { RiVuejsLine } from "react-icons/ri";
 import { GoGear } from "react-icons/go";
 import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
@@ -57,7 +44,7 @@ export default function Technologies() {
                 <ListItem>
                     <picture><DiReact size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>React.js</ListParagraph>
+                        <ListParagraph>React Js</ListParagraph>
                     <SkillBar eighty/>
                     <br />
                     </ListContainer>
@@ -65,24 +52,8 @@ export default function Technologies() {
                 <ListItem>
                     <picture><RiVuejsLine size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>Vue.js</ListParagraph>
+                        <ListParagraph>Vue Js</ListParagraph>
                     <SkillBar seventy/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><SiNextdotjs size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Next.js</ListParagraph>
-                    <SkillBar eighty/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><SiExpress size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Express.js</ListParagraph>
-                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -113,16 +84,8 @@ export default function Technologies() {
                 <ListItem>
                     <picture><DiAngularSimple size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>Angular.js</ListParagraph>
+                        <ListParagraph>Angular Js</ListParagraph>
                     <SkillBar fifty/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
-                    <picture><DiBootstrap size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>Bootstrap</ListParagraph>
-                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -135,18 +98,18 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiHtml5 size="3rem" /></picture>
+                    <picture><DiCode size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>HTML5</ListParagraph>
+                        <ListParagraph>HTML5, Bootstrap & CSS3</ListParagraph>
                     <SkillBar ninety/>
                     <br />
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiCss3 size="3rem" /></picture>
+                    <picture><SiRedux size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>CSS3</ListParagraph>
-                    <SkillBar ninety/>
+                        <ListParagraph>Redux Js</ListParagraph>
+                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -176,8 +139,32 @@ export default function Technologies() {
                 <ListItem>
                     <picture><DiNodejs size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>Node.js</ListParagraph>
+                        <ListParagraph>Node Js</ListParagraph>
                     <SkillBar sixty/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><SiNextdotjs size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Next Js</ListParagraph>
+                    <SkillBar eighty/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><SiExpress size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Express Js</ListParagraph>
+                    <SkillBar eighty/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><SiJquery size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Jquery</ListParagraph>
+                    <SkillBar seventy/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -190,18 +177,18 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiSqllite size="3rem" /></picture>
-                    <ListContainer>
-                        <ListParagraph>SQLite</ListParagraph>
-                    <SkillBar sixty/>
-                    <br />
-                    </ListContainer>
-                </ListItem>
-                <ListItem>
                     <picture><DiMysql size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>MySQL</ListParagraph>
                     <SkillBar fifty/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><SiFlask size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Flask</ListParagraph>
+                    <SkillBar seventy/>
                     <br />
                     </ListContainer>
                 </ListItem>
