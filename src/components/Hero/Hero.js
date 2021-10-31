@@ -2,15 +2,18 @@ import React from "react";
 import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import { LeftSection } from "./HeroStyles";
 import Button from "../../styles/GlobalComponents/Button";
+import { SiDungeonsanddragons } from 'react-icons/si';
+
 
 export default function Hero (props) {
     return (
         <>
-            <Section row padding>
+            <Section row nopadding>
                 <LeftSection>
                     <SectionTitle main center>
-                        Welcome To <br />
-                        My Personal Portfolio
+                        Full Stack Mobile, <br />
+                        Web <SiDungeonsanddragons /> Software <br />
+                        Development
                     </SectionTitle>
                     <SectionText>
                         Work Fuelled By Curiousity And Determination

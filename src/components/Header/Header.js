@@ -1,10 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-// import { SiDeutschebahn } from 'react-icons/si';
-import { SiDungeonsanddragons } from 'react-icons/si';
-// import { GiDragonfly } from 'react-icons/gi';
 import { AiFillGithub, AiFillMail, AiFillPhone } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, Img, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 export default function Header () {
     return (
@@ -16,14 +13,8 @@ export default function Header () {
                         alignItems: 'center',
                         color: 'white',
                     }}>
-                        {/* <SiDeutschebahn size="3rem" /> */}
-                        {/* <GiDragonfly size="3rem" /> */}
-                        <SiDungeonsanddragons size="3rem" />
-                        <span>
-                            <h3>
-                                <pre> Douglas Bitok</pre>
-                            </h3>
-                        </span>
+                        <Img src="/images/logo.png" />
+                        <Span>Douglas Bitok</Span>
                     </a>
                 </Link>
             </Div1>

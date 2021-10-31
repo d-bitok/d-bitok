@@ -31,8 +31,10 @@ import {
     DiScriptcs,
     DiJqueryUiLogo,
     DiVim,
-    DiZend
+    DiZend,
 } from 'react-icons/di'
+import { SiExpress, SiFirebase, SiNextdotjs } from "react-icons/si";
+import { RiVuejsLine } from "react-icons/ri";
 import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, SkillBar, Hr } from "./TechnologiesStyles";
 
@@ -60,7 +62,7 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiCode size="3rem" /></picture>
+                    <picture><RiVuejsLine size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>Vue.js</ListParagraph>
                     <SkillBar seventy/>
@@ -68,18 +70,18 @@ export default function Technologies() {
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiDjango size="3rem" /></picture>
+                    <picture><SiNextdotjs size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>Django</ListParagraph>
-                    <SkillBar ninety/>
+                        <ListParagraph>Next.js</ListParagraph>
+                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
                 <ListItem>
-                    <picture><DiCode size="3rem" /></picture>
+                    <picture><SiExpress size="3rem" /></picture>
                     <ListContainer>
-                        <ListParagraph>Next.js</ListParagraph>
-                    <SkillBar sixty/>
+                        <ListParagraph>Express.js</ListParagraph>
+                    <SkillBar eighty/>
                     <br />
                     </ListContainer>
                 </ListItem>
@@ -87,6 +89,14 @@ export default function Technologies() {
                     <picture><DiReact size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>React Native</ListParagraph>
+                    <SkillBar ninety/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><DiDjango size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Django</ListParagraph>
                     <SkillBar ninety/>
                     <br />
                     </ListContainer>
@@ -148,6 +158,14 @@ export default function Technologies() {
                 <br />
                 <ListItem>
                     <picture><DiFirebase size="3rem" /></picture>
+                    <ListContainer>
+                        <ListParagraph>Firestore</ListParagraph>
+                    <SkillBar ninety/>
+                    <br />
+                    </ListContainer>
+                </ListItem>
+                <ListItem>
+                    <picture><SiFirebase size="3rem" /></picture>
                     <ListContainer>
                         <ListParagraph>Firebase</ListParagraph>
                     <SkillBar ninety/>

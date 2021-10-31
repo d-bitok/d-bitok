@@ -19,6 +19,27 @@ export const Container = styled.div`
     }
 `;
 
+
+// Logo Styling
+export const Img = styled.img`
+    transition: 0.3s ease;
+    width:3.6rem;
+    height:3.6rem;
+    margin-right: 1rem;
+    margin-bottom: 20px;
+    
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+`;
+
+// Logo Styling
+export const Span = styled.span`
+    font-size: 2rem;
+    margin-bottom: 20px;
+`;
+
 // Divs Styling
 export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 2;
@@ -26,7 +47,7 @@ export const Div1 = styled.div`
     flex-direction: row;
     align-content: center;
     
-    @media ${(props) => props.theme.breakpoints.sm} {
+    @media ${(props) => props.theme.breakpoints.md} {
         grid-area: 1 / 1 / 2 / 3;
     }
 `;
@@ -35,7 +56,7 @@ export const Div2 = styled.div`
     display: flex;
     justify-content: space-around;
 
-    @media ${(props) => props.theme.breakpoints.sm} {
+    @media ${(props) => props.theme.breakpoints.md} {
         grid-area: 2 / 2 / 3 / 5;
     }
 `;
@@ -73,6 +94,7 @@ export const SocialIcons = styled.a`
     color: white;
     border-radius: 50px;
     padding: 8px;
+    
     &:hover {
         background-color: #212d45;
         transform: scale(1.2);
