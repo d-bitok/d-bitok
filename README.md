@@ -2,9 +2,17 @@
 
 ## Technologies Used
 
+### Front-End
+
 - React Js
+
+### Back-End
+
 - Next Js
-- Firebase Hosting
+
+### Hosting And Database
+
+- Firebase
 
 ### [Visit Site](https://d-bitok.web.app/)
 
