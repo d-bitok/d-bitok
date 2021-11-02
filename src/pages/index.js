@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <Layout>
             <Head>
-                <title>Douglas Bitok - Portfolio</title>
+                <title>Douglas Bitok</title>
                 <meta
                     name="keywords"
                     content="web development, programming, react js, next js, react native, vue js, app development, coding, automation, python, django, firebase, node js, web, software development"
