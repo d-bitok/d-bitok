@@ -29,7 +29,7 @@ export default function Projects() {
             <BlogCard key={i}>
               <Img src={p.image} />
               <TitleContent>
-                <HeaderThree title>{p.title}</HeaderThree>
+                <HeaderThree>{p.title}</HeaderThree>
                 <Hr />
               </TitleContent>
               <CardInfo className="card-info">{p.description}</CardInfo>
