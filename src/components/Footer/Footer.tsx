@@ -33,7 +33,7 @@ export default function Footer() {
           <Slogan>The Future is Now</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/d-bitok" target="_blank">
+          <SocialIcons href="https://github.com/Pheon-Dev" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
         </SocialContainer>
